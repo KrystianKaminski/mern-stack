@@ -10,7 +10,7 @@ export default class CreateExercises extends Component {
     this.onChangeDescription = this.onChangeDescription.bind(this);
     this.onChangeDuration = this.onChangeDuration.bind(this);
     this.onChangeDate = this.onChangeDate.bind(this);
-    this.onChangeSubmit = this.onChangeSubmit.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
       username: "",
