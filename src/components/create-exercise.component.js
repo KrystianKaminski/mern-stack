@@ -4,6 +4,12 @@ export default class CreateExercises extends Component {
   constructor(props) {
     super(props);
 
+    this.onChangeUserName = this.onChangeUserName.bind(this);
+    this.onChangeDescription = this.onChangeDescription.bind(this);
+    this.onChangeDuration = this.onChangeDuration.bind(this);
+    this.onChangeDate = this.onChangeDate.bind(this);
+    this.onChangeSubmit = this.onChangeSubmit.bind(this);
+
     this.state = {
       username: "",
       description: "",
