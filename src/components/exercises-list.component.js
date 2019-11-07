@@ -12,7 +12,7 @@ const Exercise = props => (
       <Link to={"/edit/" + props.exercise._id}>edit</Link> |{" "}
       <a
         href="#"
-        onclick={() => {
+        onClick={() => {
           props.deleteExercise(props.exercise._id);
         }}
       >
